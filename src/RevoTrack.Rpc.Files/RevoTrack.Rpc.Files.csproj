@@ -12,6 +12,7 @@
     <IsPackable>true</IsPackable>
     <PackageId>RevoTrack.Rpc.Files</PackageId>
     <Description>HTTP model file discovery and download helpers for RevoTrack.Rpc.</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 

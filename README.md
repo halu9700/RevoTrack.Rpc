@@ -267,3 +267,13 @@ await projectManager.DeleteCurrentProjectAsync(closeProjectFirst: false);
 - `GlobalMarkerLibrary` 默认受保护。
 - 重解析点目录不会被递归删除。
 - 删除失败时保留当前工程记录，便于重试。
+
+## License
+
+This project is licensed under the Apache License 2.0.
+See [LICENSE](LICENSE) for the full license text.
+
+RevoTrack is a trademark of its respective owner. This project is an
+independent, unofficial client and is not affiliated with or endorsed by
+the RevoTrack vendor. Use of the RevoTrack server software requires a
+valid license from the vendor.
