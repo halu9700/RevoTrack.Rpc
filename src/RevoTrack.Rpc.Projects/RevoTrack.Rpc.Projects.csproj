@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\RevoTrack.Rpc\RevoTrack.Rpc.csproj" />
+    <ProjectReference Include="..\RevoTrack.Rpc.Files\RevoTrack.Rpc.Files.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>RevoTrack.Rpc.Projects</AssemblyName>
+    <RootNamespace>RevoTrack.Rpc.Projects</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IsPackable>true</IsPackable>
+    <PackageId>RevoTrack.Rpc.Projects</PackageId>
+    <Description>Project lifecycle and safe cleanup helpers for RevoTrack.Rpc.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

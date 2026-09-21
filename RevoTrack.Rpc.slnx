@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/RevoTrack.Rpc.WpfDemo/RevoTrack.Rpc.WpfDemo.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/RevoTrack.Rpc.Files/RevoTrack.Rpc.Files.csproj" />
+    <Project Path="src/RevoTrack.Rpc.Projects/RevoTrack.Rpc.Projects.csproj" />
+    <Project Path="src/RevoTrack.Rpc/RevoTrack.Rpc.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RevoTrack.Rpc.Tests/RevoTrack.Rpc.Tests.csproj" />
+  </Folder>
+</Solution>

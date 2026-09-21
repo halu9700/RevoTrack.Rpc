@@ -1,0 +1,19 @@
+# Build output
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+
+# IDE and user state
+.vs/
+.idea/
+*.user
+*.suo
+
+# Local packages
+*.nupkg
+*.snupkg
+
+# Vendor-provided originals must not be committed to this repository.
+Revo Track/
+**/中-RevoTrack-TCP接口用户手册.pdf
